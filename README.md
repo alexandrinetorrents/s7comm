@@ -1,10 +1,10 @@
 # s7comm
 
-Python script that allows to send read/write s7communication requests to Siemens S7 PLCs.
+Python script that allows to send read/write **s7communication** requests to **Siemens** S7 PLCs.
 
 The different arguments can be given directly in command line.
 
-Here is how to use it: s7comm.py -a address -m mode -n number -d data ip_address
+Here is how to use it: *s7comm.py -a `address` -m `mode` -n `number` -d `data` ip_address*
 
 >    * -a    Address from which data will be read/written
 >    * -m    [r|w] Chosen mode of the program, whether you want to read or write on the PLC
